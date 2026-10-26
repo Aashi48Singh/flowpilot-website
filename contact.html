@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | FlowPilot</title>
+    <meta name="description"
+        content="FlowPilot helps modern teams automate repetitive work, collaborate clearly, and grow with confidence.">
+    <meta name="theme-color" content="#070d1a">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="wrap nav-in"><a class="logo" href="index.html">flowpilot</a>
+            <button class="burger" aria-label="Open menu" aria-expanded="false">Menu</button>
+            <nav class="links" id="links"><a href="index.html">Home</a><a href="product.html">Product</a><a
+                    href="solutions.html">Solutions</a><a href="pricing.html">Pricing</a><a
+                    href="resources.html">Resources</a><a href="about.html">About</a><a
+                    href="contact.html">Contact</a><span id="auth-links"><a class="btn ghost" href="login.html">Log
+                        in</a><a class="btn" href="signup.html">Get started</a></span></nav>
+        </div>
+    </header>
+    <main>
+        <section class="phead">
+            <div class="wrap">
+                <h1>Let's talk about <span class="hl">your team's flow</span></h1>
+                <p class="sub">Questions about plans, a demo for your team, or help with your account? We usually reply
+                    within a few hours.</p>
+            </div>
+        </section>
+        <section class="wrap sec ">
+            <div class="cgrid">
+                <div class="info">
+                    <article class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="4" width="20" height="16" rx="2" />
+                                <path d="m22 7-10 6L2 7" />
+                            </svg></span>
+                        <div>
+                            <h3>Email us</h3>
+                            <p>hello@flowpilot.com<br>support@flowpilot.com</p>
+                        </div>
+                    </article>
+                    <article class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 17v3a2 2 0 0 1-2.2 2A20 20 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7A2 2 0 0 1 22 17z" />
+                            </svg></span>
+                        <div>
+                            <h3>Call us</h3>
+                            <p>+1 (555) 014-2290</p>
+                        </div>
+                    </article>
+                    <article class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg></span>
+                        <div>
+                            <h3>Working hours</h3>
+                            <p>Monday to Friday, 9 am to 6 pm</p>
+                        </div>
+                    </article>
+                    <article class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z" />
+                                <circle cx="12" cy="10" r="3" />
+                            </svg></span>
+                        <div>
+                            <h3>Visit us</h3>
+                            <p>21 Market Street, San Francisco, CA</p>
+                        </div>
+                    </article>
+                    <article class="card"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3M12 17h.01" />
+                            </svg></span>
+                        <div>
+                            <h3>Need a quick answer?</h3>
+                            <p>Check the <a href="resources.html" style="color:var(--ac)">Help center</a> for guides and
+                                FAQs.</p>
+                        </div>
+                    </article>
+                </div>
+                <form id="contact-form" class="fcard">
+                    <h2>Send us a message</h2>
+                    <p class="muted">Fill in the form and the right person on our team will get back to you.</p>
+                    <div class="frow">
+                        <div><label for="n">Full name</label><input id="n" autocomplete="name"
+                                placeholder="Aashi Sharma" required></div>
+                        <div><label for="e2">Work email</label><input id="e2" type="email" autocomplete="email"
+                                placeholder="you@company.com" required></div>
+                    </div>
+                    <div class="frow">
+                        <div><label for="c">Company (optional)</label><input id="c" placeholder="Your company"></div>
+                        <div><label for="t">What is this about?</label><select id="t">
+                                <option>Talk to sales</option>
+                                <option>Request a demo</option>
+                                <option>Product support</option>
+                                <option>Partnership</option>
+                                <option>Something else</option>
+                            </select></div>
+                    </div>
+                    <label for="m">Your message</label><textarea id="m" rows="5"
+                        placeholder="Tell us a little about your team and what you need." required></textarea>
+                    <button class="btn" type="submit">Send message</button>
+                    <p class="msg" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="wrap">
+            <div class="foot-in">
+                <div><a class="logo" href="index.html">flowpilot</a>
+                    <p class="muted small" style="max-width:30ch">One calm workspace for projects, people, and progress.
+                    </p>
+                </div>
+                <div><b>Product</b><a href="product.html">Features</a><a href="solutions.html">Solutions</a><a
+                        href="pricing.html">Pricing</a></div>
+                <div><b>Company</b><a href="about.html">About us</a><a href="resources.html">Resources</a><a
+                        href="contact.html">Contact</a></div>
+                <div><b>Account</b><a href="login.html">Log in</a><a href="signup.html">Sign up</a><a
+                        href="dashboard.html">Dashboard</a></div>
+            </div>
+            <p class="muted small copy">© 2026 FlowPilot. Crafted for better work.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard | FlowPilot</title>
+    <meta name="description"
+        content="FlowPilot helps modern teams automate repetitive work, collaborate clearly, and grow with confidence.">
+    <meta name="theme-color" content="#070d1a">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-private="1">
+    <header class="nav">
+        <div class="wrap nav-in"><a class="logo" href="index.html">flowpilot</a>
+            <button class="burger" aria-label="Open menu" aria-expanded="false">Menu</button>
+            <nav class="links" id="links"><a href="index.html">Home</a><a href="product.html">Product</a><a
+                    href="solutions.html">Solutions</a><a href="pricing.html">Pricing</a><a
+                    href="resources.html">Resources</a><a href="about.html">About</a><a
+                    href="contact.html">Contact</a><span id="auth-links"><a class="btn ghost" href="login.html">Log
+                        in</a><a class="btn" href="signup.html">Get started</a></span></nav>
+        </div>
+    </header>
+    <main>
+        <section class="wrap sec">
+            <p class="muted small" id="today"></p>
+            <h1 id="hello" style="font-size:2.4rem">Good morning</h1>
+            <p class="sub">Here's what's happening with your team today. Click a task to mark it done.</p>
+            <div class="two">
+                <div class="dash">
+                    <h3>Today's priorities</h3>
+                    <ul class="tasks" style="cursor:pointer">
+                        <li class="done">Finalize homepage wireframe <span>Design</span></li>
+                        <li>Review onboarding flow <span>Product</span></li>
+                        <li>Prepare launch checklist <span>Marketing</span></li>
+                        <li>Send weekly update <span>Operations</span></li>
+                    </ul>
+                </div>
+                <div class="dash">
+                    <h3>Project progress</h3>
+                    <div class="kpis">
+                        <div><small>Tasks completed</small><strong>28</strong><em>+12%</em></div>
+                        <div><small>Website launch</small><strong>76%</strong>
+                            <div class="bar"><i style="width:76%"></i></div>
+                        </div>
+                    </div>
+                    <p class="muted small">You're on track. Weekly goal completed.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="wrap">
+            <div class="foot-in">
+                <div><a class="logo" href="index.html">flowpilot</a>
+                    <p class="muted small" style="max-width:30ch">One calm workspace for projects, people, and progress.
+                    </p>
+                </div>
+                <div><b>Product</b><a href="product.html">Features</a><a href="solutions.html">Solutions</a><a
+                        href="pricing.html">Pricing</a></div>
+                <div><b>Company</b><a href="about.html">About us</a><a href="resources.html">Resources</a><a
+                        href="contact.html">Contact</a></div>
+                <div><b>Account</b><a href="login.html">Log in</a><a href="signup.html">Sign up</a><a
+                        href="dashboard.html">Dashboard</a></div>
+            </div>
+            <p class="muted small copy">© 2026 FlowPilot. Crafted for better work.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

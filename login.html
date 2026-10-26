@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log in | FlowPilot</title>
+    <meta name="description"
+        content="FlowPilot helps modern teams automate repetitive work, collaborate clearly, and grow with confidence.">
+    <meta name="theme-color" content="#070d1a">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav">
+        <div class="wrap nav-in"><a class="logo" href="index.html">flowpilot</a>
+            <button class="burger" aria-label="Open menu" aria-expanded="false">Menu</button>
+            <nav class="links" id="links"><a href="index.html">Home</a><a href="product.html">Product</a><a
+                    href="solutions.html">Solutions</a><a href="pricing.html">Pricing</a><a
+                    href="resources.html">Resources</a><a href="about.html">About</a><a
+                    href="contact.html">Contact</a><span id="auth-links"><a class="btn ghost" href="login.html">Log
+                        in</a><a class="btn" href="signup.html">Get started</a></span></nav>
+        </div>
+    </header>
+    <main>
+        <section class="auth">
+            <h1 style="font-size:2rem">Welcome <span class="hl">back</span></h1>
+            <p class="muted">Log in to pick up where you left off.</p>
+            <form id="login-form"><label for="email">Work email</label><input id="email" type="email"
+                    autocomplete="email" placeholder="you@company.com" required>
+                <label for="pass">Password</label><input id="pass" type="password" autocomplete="current-password"
+                    required>
+                <button class="btn" type="submit">Log in</button>
+                <p class="err" role="alert"></p>
+            </form>
+            <div class="hint">Try the demo account: demo@flowpilot.com / demo1234</div>
+            <p class="alt2">New to FlowPilot? <a class="l" href="signup.html">Create a free account</a></p>
+        </section>
+    </main>
+    <footer class="foot">
+        <div class="wrap">
+            <div class="foot-in">
+                <div><a class="logo" href="index.html">flowpilot</a>
+                    <p class="muted small" style="max-width:30ch">One calm workspace for projects, people, and progress.
+                    </p>
+                </div>
+                <div><b>Product</b><a href="product.html">Features</a><a href="solutions.html">Solutions</a><a
+                        href="pricing.html">Pricing</a></div>
+                <div><b>Company</b><a href="about.html">About us</a><a href="resources.html">Resources</a><a
+                        href="contact.html">Contact</a></div>
+                <div><b>Account</b><a href="login.html">Log in</a><a href="signup.html">Sign up</a><a
+                        href="dashboard.html">Dashboard</a></div>
+            </div>
+            <p class="muted small copy">© 2026 FlowPilot. Crafted for better work.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
